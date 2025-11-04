@@ -1,0 +1,12 @@
+{
+  "testCases": [
+    { "panelW": 1, "panelH": 1, "roofW": 3, "roofH": 3, "overlapW": 1, "overlapH": 3, "expected": 15 },
+    { "panelW": 2, "panelH": 2, "roofW": 4, "roofH": 4, "overlapW": 2, "overlapH": 4, "expected": 6 },
+    { "panelW": 2, "panelH": 3, "roofW": 6, "roofH": 3, "overlapW": 3, "overlapH": 3, "expected": 4 },
+    { "panelW": 3, "panelH": 3, "roofW": 8, "roofH": 3, "overlapW": 4, "overlapH": 3, "expected": 4 },
+    { "panelW": 4, "panelH": 2, "roofW": 8, "roofH": 4, "overlapW": 4, "overlapH": 4, "expected": 6 },
+    { "panelW": 5, "panelH": 3, "roofW": 10, "roofH": 6, "overlapW": 5, "overlapH": 6, "expected": 6 },
+    { "panelW": 2, "panelH": 5, "roofW": 11, "roofH": 5, "overlapW": 3, "overlapH": 5, "expected": 9 },
+    { "panelW": 2, "panelH": 2, "roofW": 1, "roofH": 4, "overlapW": 0, "overlapH": 4, "expected": 2 }
+  ]
+}
